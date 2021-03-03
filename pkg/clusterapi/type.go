@@ -6,6 +6,7 @@ type Cluster struct {
 	clientset *kubernetes.Clientset
 	Pods      []*Pods
 	Svcs      []*Services
+	Pv        int
 }
 type Pods struct {
 	Name       string
